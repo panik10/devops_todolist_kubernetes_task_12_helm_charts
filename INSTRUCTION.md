@@ -13,6 +13,11 @@ install ingress:
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
 ```
 
+go to .infrastructure folder:
+```
+cd .infrastructure
+```
+
 verify the templates by:
 ```
 helm install todoapp helm-chart/todoapp --dry-run
